@@ -18,7 +18,13 @@
     <h1>Turma de Tecnologias WEB - Sábados</h1>
     <p>Somos a turma do curso de Tecnologias WEB, qualificação, ofertada em parceria do Senai com o <br>
     Governo do Estado de São Paulo</p>
-    <button class="botao">Voltar</button>
-<a href="index.html" >Voltar</a>
+<button class="botao" id="botaoVoltar">Voltar</button>
+<a href="index.html">Voltar</a>
+
+<script>
+    document.getElementById("botaoVoltar").onclick = function() {
+        window.location.href = "index.html";
+    };
+</script>
 </body>
 </html>
